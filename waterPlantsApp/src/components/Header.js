@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const Header = () => {
     return(
         <HeaderStyle>
-            <p>Water My Plants</p>
+            <p>I Wet My Plants</p>
             <NavBarStyle>
                 <li><Link to="/">Login</Link></li>
                 <li><Link to="/signup">Signup</Link></li>
@@ -33,6 +33,10 @@ const HeaderStyle = styled.div`
         font-size: 2em;
         color: darkgreen;
     }
+
+    p:hover {
+        color: white;
+    }
 `
 
 const NavBarStyle = styled.ul`
@@ -42,8 +46,12 @@ const NavBarStyle = styled.ul`
         
         a {
             text-decoration: none;
-            color: white;
+            color: darkgreen;
             font-size: 1em;
+        }
+
+        a:hover {
+            color: white;
         }
     }
 `
