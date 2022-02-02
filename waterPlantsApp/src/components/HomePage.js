@@ -14,7 +14,9 @@ function HomePage() {
         </p>
       </div>
       <div className='home-button'>
-        <Button id='home-btn' href='/signup'>Register Now</Button>
+        <Button id='home-btn' href='/login'>Login </Button>
+        or <br />
+        <Button id='home-btn' href='/signup'>Signup Here</Button>
       </div>
     </div>
   )

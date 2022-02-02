@@ -1,13 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { useHistory } from 'react-router-dom'
 
 const Header = () => {
+    const history = useHistory();
+
     return(
         <HeaderStyle>
-            <p>I Wet My Plants</p>
+            <p onClick={() => {history.push('/')}}>I Wet My Plants</p>
             <NavBarStyle>
-                <li><Link to="/">Login</Link></li>
+                <li><Link to="/login">Login</Link></li>
                 <li><Link to="/signup">Signup</Link></li>
                 <li><Link to="/plants">Plants</Link></li>
                 <li><Link to="/add-plant">Add a Plant</Link></li>
@@ -36,6 +39,7 @@ const HeaderStyle = styled.div`
 
     p:hover {
         color: white;
+        
     }
 `
 
