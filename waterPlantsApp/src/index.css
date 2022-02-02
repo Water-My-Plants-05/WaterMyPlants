@@ -12,7 +12,8 @@ code {
     monospace;
 }
 
-/* Footer Styles */
+/********************** Footer Styles *****************************/
+
 footer {
   display: flex;
   justify-content: space-evenly;
@@ -32,4 +33,52 @@ footer a {
 
 footer a:hover{
   color: #fff;
+}
+
+/*********************** HomePage Styles ************************/
+
+.home-container {
+  background-image: url('./images/homebg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 78.5vh;
+  width: 100vw;
+  margin-bottom: 1rem;
+}
+
+.home-button, Button {
+  padding: 1.5%;
+  margin: auto;
+  background-color: #7fbf7c;
+  color: #fff;
+  border: 1px solid white;
+  text-decoration: none;
+}
+
+.home-text, .home-details, .home-button {
+  width: 33%;
+  margin: 0 auto;
+  color: darkgreen;
+}
+
+.home-button, #home-btn {
+  width: 5%;
+  color: darkgreen;
+  border-radius: 15%;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+#home-btn:hover {
+  color: white;
+}
+
+.home-text h1 {
+  font-size: 6rem;
+  text-shadow: 1px 1px #000;
 }
