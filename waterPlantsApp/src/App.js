@@ -12,6 +12,7 @@ import Plants from './components/Plants';
 import AddPlant from './components/AddPlant';
 import Footer from './components/Footer';
 import HomePage from './components/HomePage';
+import Team from './components/Team';
 
 
 const App = () => {
@@ -39,6 +40,9 @@ const App = () => {
           </Route>
           <Route path="/logout">
             <Logout />
+          </Route>
+          <Route path='/team'>
+            <Team />
           </Route>
       </RouteContainer>
       <Footer />

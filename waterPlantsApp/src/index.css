@@ -82,3 +82,53 @@ footer a:hover{
   font-size: 6rem;
   text-shadow: 1px 1px #000;
 }
+
+/****************** Team Page Styles *****************/
+
+.team-background {
+  background-image: url('./images/teampagebg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 78.5vh;
+  width: 100vw;
+}
+
+.team-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.team-member {
+  margin-right: 5rem;
+}
+
+.team-member img {
+  object-fit: cover;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  padding: 2%;
+  margin-right: 5%;
+}
+
+.member-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+  font-size: 20px;
+}
+
+.github-icon {
+  color: #000;
+}
+
+.team {
+  text-align: center;
+  padding: 3%;
+  font-size: 30px;
+  color: darkgreen;
+}
+
