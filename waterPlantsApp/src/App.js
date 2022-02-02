@@ -11,6 +11,7 @@ import Signup from './components/Signup';
 import Plants from './components/Plants';
 import AddPlant from './components/AddPlant';
 import Footer from './components/Footer';
+import HomePage from './components/HomePage';
 
 
 const App = () => {
@@ -19,7 +20,7 @@ const App = () => {
       <Header/>
       <RouteContainer>
           <Route exact path="/">
-            <Login />
+            <HomePage />
           </Route>          
           <Route path="/login">
             <Login />
