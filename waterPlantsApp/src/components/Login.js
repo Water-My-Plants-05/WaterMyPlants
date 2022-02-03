@@ -64,7 +64,7 @@ export default Login;
 
 
 const FormContainer = styled.div`
-    height: 80%;
+    height: 80%
     justify-content: center;
     align-items: center;
     display:flex;
@@ -76,4 +76,5 @@ const LoginContainer = styled.div`
     padding: 2rem;
     text-align: center;
 `
+
 
