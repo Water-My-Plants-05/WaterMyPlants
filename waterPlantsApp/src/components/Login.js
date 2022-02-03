@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import styled from "styled-components";
 import axios from "axios";
 import { useHistory } from "react-router-dom";
 import "../index.css";
@@ -35,7 +34,7 @@ const Login = () => {
   };
 
   return (
-    <div className='form-container2'>
+    <div className='FormContainer'>
       <div className='login-container2'>
         <h1>Let's wet our plants 🌿</h1>
         <form onSubmit={handleSubmit}>
@@ -63,9 +62,6 @@ const Login = () => {
           <button id='submit' type='submit'>
             Login
           </button>
-          {/* <button id='signup' type='submit'>
-            Sign up
-          </button> */}
           <a href='/signup'>Don't have an account? Sign Up</a>
         </form>
       </div>
@@ -74,26 +70,3 @@ const Login = () => {
 };
 
 export default Login;
-
-// const FormContainer = styled.div`
-//   height: 80%
-//   justify-content: center;
-//   align-items: center;
-//   display:flex;
-//   border: 1px solid red;
-//   height: 78.3vh;
-//   width: 99.9vw;
-// `;
-
-// const LoginContainer = styled.div`
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   flex-direction: column;
-//   position: absolute;
-//   width: 31rem;
-//   background: white;
-//   padding: 2rem;
-//   text-align: center;
-//   border: 1px solid blue;
-// `;
