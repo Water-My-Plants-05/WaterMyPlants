@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -31,14 +31,14 @@ footer a {
   color: darkgreen;
 }
 
-footer a:hover{
+footer a:hover {
   color: #fff;
 }
 
 /*********************** HomePage Styles ************************/
 
 .home-container {
-  background-image: url('./images/homebg.jpg');
+  background-image: url("./images/homebg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,7 +50,8 @@ footer a:hover{
   margin-bottom: 1rem;
 }
 
-.home-button, Button {
+.home-button,
+Button {
   padding: 1.5%;
   margin: auto;
   background-color: #7fbf7c;
@@ -59,19 +60,21 @@ footer a:hover{
   text-decoration: none;
 }
 
-.home-text, .home-details, .home-button {
+.home-text,
+.home-details,
+.home-button {
   width: 33%;
   margin: 0 auto;
   color: darkgreen;
 }
 
-.home-button, #home-btn {
+.home-button,
+#home-btn {
   width: 5%;
   color: darkgreen;
   border-radius: 15%;
   text-align: center;
   text-decoration: none;
-  
 }
 
 #home-btn:hover {
@@ -86,7 +89,7 @@ footer a:hover{
 /****************** Team Page Styles *****************/
 
 .team-background {
-  background-image: url('./images/teampagebg.png');
+  background-image: url("./images/teampagebg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -132,3 +135,84 @@ footer a:hover{
   color: darkgreen;
 }
 
+/****************** Add Plant Page Styles *******************/
+
+.form-container {
+  height: 78.5vh;
+  width: 99.1vw;
+  background-image: url("./images/plantwall-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-title,
+.form-group {
+  text-align: center;
+  color: darkgreen;
+  text-shadow: 1px 1px #000;
+}
+
+.form-title h1 {
+  font-size: 5rem;
+}
+
+.form-group {
+  font-size: 2rem;
+}
+
+.submit {
+  margin-top: 3%;
+}
+
+#submit-login {
+  color: darkgreen;
+  font-size: 20px;
+}
+
+#submit-login:hover {
+  color: #fff;
+}
+
+/****************** Plants Page Styles ***********************/
+
+.plantlist-container {
+  background-image: url("./images/houseplants3-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 1px 1px #000;
+  height: 78.5vh;
+  width: 99.9vw;
+}
+
+#my-plants {
+  color: lime;
+  text-align: center;
+  padding: 5%;
+}
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 5% 5% 15%;
+}
+
+#add-plant-item {
+  text-align: center;
+  height: 325px;
+  width: 325px;
+}
+
+#add-plant-item a {
+  text-decoration: none;
+  color: lime;
+}
+
+#add-plant-item h2 {
+  font-size: 5rem;
+}
+
+#add-plant-item p {
+  font-size: 2rem;
+}
