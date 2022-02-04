@@ -34,7 +34,7 @@ const App = () => {
         <Route path='/plants'>
           <Plants />
         </Route>
-        <Route path='/logout'>
+        <Route path='/login'>
           <Logout />
         </Route>
         <Route path='/team'>
