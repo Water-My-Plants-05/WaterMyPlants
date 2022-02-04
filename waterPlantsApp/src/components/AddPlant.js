@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, FormGroup } from "reactstrap";
+import { Button } from "reactstrap";
 import { useHistory } from "react-router-dom";
 import axiosWithAuth from "../utils/axiosWithAuth";
 import "../index.css";
@@ -35,29 +35,29 @@ const AddPlant = () => {
   return (
     <form className='form-container' onSubmit={handleAddPlant}>
       <div className='form-title'>
-        <h1>Add A Plant</h1>
+        <h1>Add A Plant 🌼</h1>
       </div>
-      <FormGroup className='form-group'>
+      <div className='form-group'>
         <div className='username-input form-spacing'>
-          <label>Name: </label>
+          <span>Name: </span>
           <input name='nickname' type='text' onChange={handleChange} />
         </div>
         <div className='password-input form-spacing'>
-          <label>Species: </label>
+          <span>Species: </span>
           <input name='species' type='text' onChange={handleChange} />
         </div>
         <div className='password-input form-spacing'>
-          <label>Water Frequency: </label>
+          <span>Water Frequency: </span>
           <input name='waterFreq' type='text' onChange={handleChange} />
         </div>
         <div className='password-input form-spacing'>
-          <label>Image URL: </label>
+          <span>Image URL: </span>
           <input name='plantImage' type='text' onChange={handleChange} />
         </div>
         <div className='submit'>
           <Button id='submit-login'>Submit</Button>
         </div>
-      </FormGroup>
+      </div>
     </form>
   );
 };
