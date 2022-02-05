@@ -1,5 +1,5 @@
-import React from 'react';
-import { Button } from 'reactstrap';
+import React from "react";
+import { Button } from "reactstrap";
 
 function HomePage() {
   return (
@@ -10,16 +10,20 @@ function HomePage() {
 
       <div className='home-details'>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam quis enim lobortis scelerisque fermentum dui faucibus. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam quis
+          enim lobortis scelerisque fermentum dui faucibus. Feugiat scelerisque
+          varius morbi enim nunc faucibus a pellentesque.
         </p>
       </div>
       <div className='home-button'>
-        <Button id='home-btn' href='/login'>Login </Button>
-        or <br />
-        <Button id='home-btn' href='/signup'>Signup Here</Button>
+        <button id='submit' type='submit'>
+          <span>Log In</span>
+        </button>
+        <a href='/signup'>Don't have an account? Sign Up!</a>
       </div>
     </div>
-  )
+  );
 }
 
 export default HomePage;

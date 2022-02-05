@@ -55,7 +55,9 @@ const AddPlant = () => {
           <input name='plantImage' type='text' onChange={handleChange} />
         </div>
         <div className='submit'>
-          <Button id='submit-login'>Submit</Button>
+          <button id='submit' type='submit'>
+            <span>Add</span>
+          </button>
         </div>
       </div>
     </form>

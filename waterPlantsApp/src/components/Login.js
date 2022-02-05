@@ -60,9 +60,9 @@ const Login = () => {
           </label>
           <br />
           <button id='submit' type='submit'>
-            <span>Login</span>
+            <span>Log In</span>
           </button>
-          <a href='/signup'>Don't have an account? Sign Up</a>
+          <a href='/signup'>Don't have an account? Sign Up!</a>
         </form>
       </div>
     </div>
