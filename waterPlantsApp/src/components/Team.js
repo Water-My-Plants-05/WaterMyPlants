@@ -16,7 +16,7 @@ function Team() {
           <div className='member-title'>
             <h3>
               Ryan Howard{" "}
-              <a href='https://github.com/ryanghoward' target='_blank'>
+              <a href='https://github.com/ryanghoward' target='_blank' rel="noreferrer">
                 <FaGithub className='github-icon' />
               </a>
             </h3>
@@ -31,7 +31,7 @@ function Team() {
           <div className='member-title'>
             <h3>
               Oscar Hernandez{" "}
-              <a href='https://github.com/oscy7' target='_blank'>
+              <a href='https://github.com/oscy7' target='_blank' rel="noreferrer">
                 <FaGithub className='github-icon' />
               </a>
             </h3>
@@ -43,7 +43,7 @@ function Team() {
           <div className='member-title'>
             <h3>
               Ben Rusinowski{" "}
-              <a href='https://github.com/Role4Initiative' target='_blank'>
+              <a href='https://github.com/Role4Initiative' target='_blank' rel="noreferrer">
                 <FaGithub className='github-icon' />
               </a>
             </h3>
@@ -58,7 +58,7 @@ function Team() {
           <div className='member-title'>
             <h3>
               Chris Castillo{" "}
-              <a href='https://github.com/SaltStalactite' target='_blank'>
+              <a href='https://github.com/SaltStalactite' target='_blank' rel="noreferrer">
                 <FaGithub className='github-icon' />
               </a>
             </h3>
