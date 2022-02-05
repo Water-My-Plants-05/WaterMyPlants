@@ -13,11 +13,11 @@ const Header = () => {
           history.push("/");
         }}
       >
-        I Wet My Plants
+        I Wet My Plants 🌷
       </p>
       <NavBarStyle>
         <li>
-          <Link to='/login'>Login</Link>
+          <Link to='/login'>Log In</Link>
         </li>
         <li>
           <Link to='/signup'>Sign Up</Link>
@@ -29,7 +29,7 @@ const Header = () => {
           <Link to='/add-plant'>Add a Plant</Link>
         </li>
         <li>
-          <Link to='/logout'>Logout</Link>
+          <Link to='/logout'>Log Out</Link>
         </li>
       </NavBarStyle>
     </HeaderStyle>
